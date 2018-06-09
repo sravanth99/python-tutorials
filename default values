@@ -1,0 +1,14 @@
+def gender(sex = 'unknown!!'):
+	if 'm' is sex:
+		sex = 'male'
+	elif 'f' is sex:
+		sex = 'female'
+ 
+	print(sex)
+ 
+ 
+ 
+gender('m')
+gender('f')
+gender()
+gender('fw')
