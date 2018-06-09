@@ -1,0 +1,19 @@
+ex = "my name is {0} and i am {1}".format("sravanth","18")
+print(ex)
+ 
+'''more control to strings by format method'''
+ind = (1,2,3,4)
+ 
+more = "guguga y={ind[0]} x = {ind[1]}".format(ind = ind)
+ 
+print(more)
+ 
+#importing libraries 
+ 
+import math
+ 
+rand = "somemthing x={m.pi} y ={m.e}".format(m = math)
+print(rand)
+#here 3f is added to limit the value upto 3 decimal places
+limit = "somemthing x={m.pi:.3f} y ={m.e:.3f}".format(m = math)
+print(limit)
