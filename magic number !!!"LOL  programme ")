@@ -1,0 +1,9 @@
+magicnumber = int(input("enter your magic number:\n"))
+ 
+for n in range(101):
+    if n is magicnumber:
+       print(n,"is a magic number!\n")
+       break
+    else:
+       print(n,"is not a magic number!\n")
+ 
