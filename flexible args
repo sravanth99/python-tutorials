@@ -1,0 +1,9 @@
+# flexible arguments
+def add(*args):
+	#we can name argument instead of args.But,In general people use args.
+	total = 0
+	for a in args:
+		total += a
+	print(total)
+ 
+add(3,4,4,5,6)
