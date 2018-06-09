@@ -1,0 +1,8 @@
+# your code goes here
+def cgpa_calculator(math,chem,phy):
+	cgpa = ((math+chem+phy)/60)*10
+ 
+	print(cgpa)
+marks = [12,4,20]
+"""*represents accessebility to all elements in that paticular type"""
+cgpa_calculator(*marks)
