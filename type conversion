@@ -1,0 +1,40 @@
+
+# converting string into integer
+s = "10100010"
+c =  int(s,2)
+# 2nd argument represents base of string
+ 
+print(c)
+ 
+#converting into float
+ 
+c =float(s)
+ 
+print(c)
+ 
+#conveting a char to int
+s = '4'
+c = ord(s)
+print(c)
+ 
+# converting int to hexadecimal string.
+c = hex(45)
+print(c)
+# converting int to octadecimal string.
+c = oct(45)
+print(c)
+ 
+#converting string to a tuple
+s = "sravanth"
+ 
+c = tuple(s)
+print(c)
+ 
+#converting string to a set
+ c = set(s)
+ print(c)
+ 
+#converting string to a list
+ 
+c = list(s)
+print(c)
