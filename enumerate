@@ -1,0 +1,6 @@
+ #enumerate yields (index,value)
+s = (1,2,3,4,5,56)
+ 
+for p in enumerate(s):
+    print(p)
+    
