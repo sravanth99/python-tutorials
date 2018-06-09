@@ -1,0 +1,42 @@
+#we can construct a dictionary using dict 
+ 
+names_and_ages = [('sravanth',18),('srujan',15),('srinivas',38),('nagaveni',33)]
+ 
+d = dict(names_and_ages)
+ 
+print(d)
+#copying a dict
+ 
+dict_copy = d.copy()
+ 
+print(dict_copy)
+ 
+#second method is to use dict directly
+f = dict(d)
+print(f)
+#adding elements to a dictionary using update method
+ 
+s = dict(a =1 ,b=2)
+d.update(s)
+ 
+print(d)
+ 
+#if keys area already present then it will be updated with new value
+n = dict(a = 1000)
+ 
+d.update(n)
+ 
+print(d)
+#for printing only keys 
+for key in d.keys():
+    print(key)
+ 
+#for printing  only values
+ 
+for v in d.values():
+    print(v)
+ 
+#accessing key and value at a time use iems method
+ 
+for k,v in d.items():
+    print("key = {k},value = {v}".format(k =k , v = d[k]))
