@@ -1,0 +1,14 @@
+#strings can be concatinated by join method
+name = ",".join(["janga",'sravanth','reddy'])
+ 
+print(name)
+ 
+separate = name.split(",")
+ 
+print(separate)
+ 
+name1 = "".join(["janga",'sravanth','reddy'])
+print(name1)
+sep = name1.split(":")
+ 
+print(sep) 
