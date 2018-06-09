@@ -1,0 +1,18 @@
+def admission(age):
+    if age <= 60:
+       dead_end = 60 - age
+       return dead_end
+ 
+ 
+ 
+print("enter your age:\n")
+estimation = admission(int(input("")))
+ 
+print("you can work",estimation,"more years")
+
+
+"""after return function stops working b'cz desired output is aquired"""
+
+"""we use return instead of ptinting it ,since in large projects we may often use same function with same result to avoid that 
+
+return stores output for the further use"""
