@@ -1,0 +1,9 @@
+j,s,r = "jangasravanthreddy".partition('sravanth')
+ 
+print(j)
+print(s)
+print(r)
+ 
+#here "_" represents un used or dummy variable
+j,_,s = "janga-sravanth".partition('-')
+print(j,s
