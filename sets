@@ -1,0 +1,50 @@
+books = {'let us C', 'dom','a','ee','a',"let us C"}
+print(books)
+#do not allows dummy value/repeatitions,
+ 
+ 
+#we can construvct set by set function
+s = set("sravanth")
+print(s)
+ 
+#for emptyset use set because "{}" represents empty dictionary
+empty = set()
+ 
+print(empty)\
+ 
+#type is used represent class
+ 
+print(type(s))
+ 
+#adding a single element to set
+ 
+s.add(3)
+print(s)
+ 
+#for adding multiple elements to the set use upadate method
+ 
+s.update([1,2,4,5,7,8])
+ 
+print(s)
+ 
+# for removimng an element we can use either remove or discard method
+ 
+'''
+both methods works the same way but if we try to remove an element that is not inn the set by
+REMOVE method it shows error ..If we use discard method it displays nothing
+'''
+ 
+s.remove(2)
+print(s)
+ 
+#SET COPYING 
+#by copy method 
+k = s.copy()
+ 
+print(k)
+ 
+#by set constructor
+m = set(s)
+ 
+print(m)
+ 
