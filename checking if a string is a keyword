@@ -1,0 +1,19 @@
+import keyword
+ 
+s1 = "sravanth"
+ 
+s2 = "elif"
+s3 = "for"
+ 
+if keyword.iskeyword(s1):
+   print(s1 + "is a key word!")
+else:
+    print(s1 +"   "+ "is not a keyword!!")
+ 
+ 
+ 
+if keyword.iskeyword(s2):
+   print(s2 +"  " + "is a key word!")
+else:
+    print(s2 +" " + "is not a keyword!!")
+ 
