@@ -1,0 +1,10 @@
+hotelrooms = [122, 144, 155, 177, 123]
+ 
+print("available room numbers from 100 to 200:\n")
+ 
+for i in range(100,201):
+    if i in hotelrooms:
+       continue
+    print(i,"is available")
+    
+"""we generally use "in" to access the elements in lists/dictionaries/sets."""
