@@ -1,0 +1,9 @@
+"""one should assign a variable to pprint because it interrupts the built in functions/it may crash"""
+
+from pprint import pprint as pp
+names_and_ages = [('sravanth',18),('srujan',15),('srinivas',38),('nagaveni',33)]
+ 
+d = dict(names_and_ages)
+ 
+ 
+pp(d)
