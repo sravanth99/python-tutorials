@@ -1,0 +1,21 @@
+import math
+ 
+ 
+ # we can access math functions in library in many ways 
+ 
+ #'.'method
+s = math.factorial(6)
+ 
+print(s)
+ 
+#by importing
+from math import factorial
+s = factorial(7)
+ 
+print(s)
+ 
+#by importing and assigning NAME
+from math import factorial as fac
+ 
+s = fac(7)
+print(s)
