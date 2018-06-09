@@ -1,0 +1,10 @@
+import random
+ 
+import urllib.request
+ 
+def download_image(url):
+    name = random.randrange(1,10000)
+    img_name = str(name) + ".svg"
+    urllib.request.urlretrieve(url, img_name)
+ 
+download_image("https://repl.it/public/landing/collab.svg")
