@@ -1,0 +1,12 @@
+# your code goes here
+dictionary = {'name':'sravanth','age':'19',"gender":'male'}
+print(dictionary)
+ 
+print(dictionary['name'])
+ 
+for k,v in dictionary.items():
+    print(k+"  "+v)
+ 
+ 
+ 
+print(*dictionary.items()
